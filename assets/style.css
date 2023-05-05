@@ -14,7 +14,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color:rgb(235, 231, 227) hsl(var(--hue), 100%, 20%);
 }
 
 body.correct {
@@ -52,12 +52,12 @@ body.wrong {
 }
 
 .btn:hover {
-    border-color: rgb(214, 220, 226);
+    border-color: rgb(147, 193, 238);
 }
 
 .btn.correct {
     --hue: var(--hue-correct);
-    color: black;
+    color: rgb(94, 203, 54);
 }
 
 .btn.wrong {
@@ -82,7 +82,7 @@ body.wrong {
 }
 
 p {
-    background-color: #fff;
+    background-color: #d6d7e3;
     display: inline-flex;
     font-size: 25px;
     height: 70px;
